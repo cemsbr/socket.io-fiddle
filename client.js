@@ -5,4 +5,5 @@ socket.on('connect', onConnect);
 
 function onConnect(){
   console.log('connect ' + socket.id);
+  socket.join('my room');
 }
